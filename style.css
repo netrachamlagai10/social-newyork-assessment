@@ -22,16 +22,26 @@ header{
     z-index: 1;
 
 }
+#bar{
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 255px;
+    left: 170px;
+}
 .p{
     position: relative;
     top: 400px;
     left: 400px;
 }
+
+
 .buttons {
     text-align: center;
-    position: relative;
-    top: 220px;
-    left: 250px;
+    position: absolute;
+    top: 335px;
+    left: 800px;
 
 }
 .siteNav {
@@ -48,7 +58,7 @@ header{
     list-style-type: none;
     display: inline-block;
     top: 100px;
-    left: -150px;
+    left: -70px;
 }
 .info{
     display: inline;
